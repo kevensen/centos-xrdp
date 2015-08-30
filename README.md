@@ -1,6 +1,11 @@
 # centos-xrdp
 Run Firefox inside a CentOS 6 based docker container.  This is the second container you should build, after kevensen/centos-vnc.
 
+Or simply pull the image
+```
+docker pull docker.io/kevensen/centos-xrdp
+```
+
 ##Instructions for Building
 ```
 docker build -t centos-xrdp .
